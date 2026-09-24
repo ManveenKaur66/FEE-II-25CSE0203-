@@ -1,38 +1,29 @@
-import ProductCard from "./ProductCard";
-
+import { useState, useEffect } from "react";
+import { Link } from "react-router";
 function Product() {
-    const products = [
-        {
-            name: "VIVO",
-            category: "Mobile",
-            stock: 5,
-            price: 150000,
-            description: "enjfnwjeo"
-        },
-        {
-            name: "IPHONE",
-            category: "Mobile",
-            stock: 0,
-            price: 150000,
-            description: "EEJJWEJFEE"
-        },
-        {
-            name: "VIVO",
-            category: "Mobile",
-            stock: 0,
-            price: 150000,
-            description: "RNWJNRNNKW"
-        }
-    ];
-
+    
+    useEffect(() => {
+        fetch("https://dummyjson.com/products")
+            .then(res => res.json())
+            .then(data => setProducts(data.products));
+    }, []);
+    // Requires callback function and dependency array.
     return (
         <>
-            <h1>PRODUCTS</h1>
-            <div>
-            {products.map((product) => {
-                return <ProductCard product={product} />;
-            })}
-            </div>
+            <h1>Product Component</h1>
+                {/*RENDERING IN THE FORM OF LIST  */}
+            <ul>
+                {products.map((product) => {
+                    return (
+                        <div key={product.id}>     {/*USED FOR OPTIMIZATION */}
+                            <li>{product.title}</li>
+                             <Link to={`/products/${product.id}`}>   {/*THIS IS DYNAMIC ROUTE */}
+                                <button>View Product</button>
+                            </Link>
+                        </div>
+                    );
+                })}
+            </ul>
         </>
     );
 }
