@@ -1,16 +1,40 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive personal portfolio website built using **React.js** and **Vite** to showcase my profile, projects, skills, and contact information. The website features a clean user interface and multiple pages for easy navigation.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Home Page** — Introduction and welcome section.
+- **Profile Page** — Personal profile and information.
+- **Projects Page** — Displays projects using reusable project cards.
+- **About Page** — Information about my background and interests.
+- **Contact Page** — Contact information and ways to connect.
+- **Navigation Bar** — Shared navigation across all pages.
+- **Footer** — Consistent footer layout.
+- **Client-Side Routing** — Smooth navigation using React Router.
+- **Reusable Components** — Modular components for better code organization.
+- **Responsive Design** — Designed to provide a user-friendly experience across different screen sizes.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React.js** — Building interactive user interfaces.
+- **Vite** — Fast development server and build tool.
+- **JavaScript** — Application logic and functionality.
+- **HTML5** — Page structure.
+- **CSS3** — Styling and layout.
+- **React Router DOM** — Navigation between pages.
 
-## Expanding the Oxlint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🎯 Project Objective
+
+The objective of this project is to apply React fundamentals, component-based architecture, client-side routing, and CSS styling to create a structured, interactive, and maintainable personal portfolio website.
+
+## 👩‍💻 Author
+
+**Manveen Kaur**
+
+- GitHub: [ManveenKaur66](https://github.com/ManveenKaur66)
+
+## 📄 License
+This project was developed for educational purposes as part of my Front-End Engineering coursework.
+
