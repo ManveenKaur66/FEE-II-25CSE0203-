@@ -1,8 +1,11 @@
 # FEE-II-25CSE0203-
+
 Welcome to my **Frontend Engineering-II (FEE-II)** repository!
+
 This repository contains my React projects, practice codes, and mini-projects developed while learning frontend development.
 
 ## 📂 Projects
+
 ### 1. Mini E-Commerce
 A mini e-commerce application demonstrating React concepts and Redux-based state management.
 
@@ -18,14 +21,31 @@ A React project for experimenting with React components and application structur
 ### 5. Vite Project
 A React application set up using Vite.
 
+### 6. ShopSmart – A Smart Shopping Platform
+A React-based e-commerce application that allows users to browse and search products using the DummyJSON API.
+
+**Key Features:**
+- Fetch and display products using an API.
+- Search products by name.
+- Filter products based on categories.
+- Sort products by price (Low to High / High to Low).
+- Sort products by rating.
+- View detailed product information.
+- Add products to the shopping cart.
+- Increase and decrease product quantities.
+- Remove products from the cart.
+- Calculate total cart items and total amount.
+
 ## 🛠️ Technologies Used
+
 - HTML5
 - CSS3
 - JavaScript
 - React.js
 - Vite
 - Redux (Mini E-Commerce project)
+- DummyJSON API (ShopSmart project)
 
 ## 🎯 Purpose
-This repository documents my learning journey in frontend development, including React practice, component-based design, and mini-project development.
 
+This repository documents my learning journey in frontend development, including React practice, API integration, state management, component-based design, and mini-project development.
